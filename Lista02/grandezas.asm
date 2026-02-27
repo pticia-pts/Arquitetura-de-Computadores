@@ -8,6 +8,7 @@ addi $2,$0,5
 syscall
 add $9,$0,$2
 
+#comparação
 beq $8,$9, igual
 
 #se $8 for menor
